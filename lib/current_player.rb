@@ -8,9 +8,9 @@ end
 
 def current_player
   if turn_count % 2 == 0
-    current_player = X
+    current_player = "X"
   else
-    current_player = O
+    current_player = "O"
 end
 
 end
