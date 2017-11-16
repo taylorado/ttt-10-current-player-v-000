@@ -1,7 +1,7 @@
 
 
 def turn_count(board)
-  return board.count
+  return board.count("X"||"O")
 
 end
 
